@@ -3,12 +3,13 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/public/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "MinderMed Apps",
+    description:
+      "A medication tracking app with React Native, Expo, and TypeScript. This comprehensive tutorial covers everything from push notifications to biometric authentication.",
+    image: "/public/projects/mindermed_apps.png",
+    tags: ["React Native", "Expo", "TypeScript"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/idhamaja/MinderMed-Apps",
   },
   {
     id: 2,
@@ -22,6 +23,64 @@ const projects = [
   },
   {
     id: 3,
+    title: "E-commerce Platform",
+    description:
+      "Full-featured e-commerce platform with user authentication and payment processing.",
+    image: "/public/projects/project3.png",
+    tags: ["React", "Node.js", "Stripe"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
+    title: "SaaS Landing Page",
+    description: "A beautiful landing page app using React and Tailwind.",
+    image: "/public/projects/project1.png",
+    tags: ["React", "TailwindCSS", "Supabase"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 5,
+    title: "Orbit Analytics Dashboard",
+    description:
+      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    image: "/public/projects/project2.png",
+    tags: ["TypeScript", "D3.js", "Next.js"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 6,
+    title: "E-commerce Platform",
+    description:
+      "Full-featured e-commerce platform with user authentication and payment processing.",
+    image: "/public/projects/project3.png",
+    tags: ["React", "Node.js", "Stripe"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 7,
+    title: "SaaS Landing Page",
+    description: "A beautiful landing page app using React and Tailwind.",
+    image: "/public/projects/project1.png",
+    tags: ["React", "TailwindCSS", "Supabase"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 8,
+    title: "Orbit Analytics Dashboard",
+    description:
+      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    image: "/public/projects/project2.png",
+    tags: ["TypeScript", "D3.js", "Next.js"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 9,
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
