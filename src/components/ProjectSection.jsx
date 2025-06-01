@@ -8,7 +8,7 @@ const projects = [
       "A medication tracking app with React Native, Expo, and TypeScript. This comprehensive tutorial covers everything from push notifications to biometric authentication.",
     image: "/public/projects/mindermed_apps.png",
     tags: ["React Native", "Expo", "TypeScript"],
-    demoUrl: "#",
+
     githubUrl: "https://github.com/idhamaja/MinderMed-Apps",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/public/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
+
     githubUrl: "#",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/public/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
+
     githubUrl: "#",
   },
   {
@@ -37,7 +37,7 @@ const projects = [
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/public/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+
     githubUrl: "#",
   },
   {
@@ -47,7 +47,7 @@ const projects = [
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/public/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
+
     githubUrl: "#",
   },
   {
@@ -57,7 +57,7 @@ const projects = [
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/public/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
+
     githubUrl: "#",
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/public/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+
     githubUrl: "#",
   },
   {
@@ -76,7 +76,7 @@ const projects = [
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/public/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
+  
     githubUrl: "#",
   },
   {
@@ -86,7 +86,7 @@ const projects = [
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/public/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
+
     githubUrl: "#",
   },
 ];
@@ -134,20 +134,16 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
+            
                     <a
                       href={project.githubUrl}
+
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                      <Github size={20}  />
                     </a>
+                    
                   </div>
                 </div>
               </div>
