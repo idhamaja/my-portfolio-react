@@ -6,7 +6,7 @@ const projects = [
     title: "MinderMed Apps",
     description:
       "A medication tracking app with React Native, Expo, and TypeScript. This comprehensive tutorial covers everything from push notifications to biometric authentication.",
-    image: "/public/projects/mindermed_apps.png",
+    image: "/projects/mindermed_apps.png",
     tags: ["React Native", "Expo", "TypeScript"],
 
     githubUrl: "https://github.com/idhamaja/MinderMed-Apps",
@@ -16,7 +16,7 @@ const projects = [
     title: "Orbit Analytics Dashboard",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/public/projects/project2.png",
+    image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
 
     githubUrl: "#",
@@ -26,7 +26,7 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/public/projects/project3.png",
+    image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
 
     githubUrl: "#",
@@ -35,7 +35,7 @@ const projects = [
     id: 4,
     title: "SaaS Landing Page",
     description: "A beautiful landing page app using React and Tailwind.",
-    image: "/public/projects/project1.png",
+    image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
 
     githubUrl: "#",
@@ -45,7 +45,7 @@ const projects = [
     title: "Orbit Analytics Dashboard",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/public/projects/project2.png",
+    image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
 
     githubUrl: "#",
@@ -55,7 +55,7 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/public/projects/project3.png",
+    image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
 
     githubUrl: "#",
@@ -64,7 +64,7 @@ const projects = [
     id: 7,
     title: "SaaS Landing Page",
     description: "A beautiful landing page app using React and Tailwind.",
-    image: "/public/projects/project1.png",
+    image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
 
     githubUrl: "#",
@@ -74,7 +74,7 @@ const projects = [
     title: "Orbit Analytics Dashboard",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/public/projects/project2.png",
+    image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
   
     githubUrl: "#",
@@ -84,7 +84,7 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/public/projects/project3.png",
+    image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
 
     githubUrl: "#",
